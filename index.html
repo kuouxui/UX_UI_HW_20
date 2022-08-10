@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/style.css" type="text/css">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1VEKEY0HQ"></script>
     <script>
@@ -16,68 +19,89 @@
       gtag('js', new Date()); gtag('config', 'G-D1VEKEY0HQ');
     </script>
   
+    <!-- Hotjar tag -->
+    <!-- Hotjar Tracking Code for https://kuouxui.github.io/UX_UI_HW_20/ -->
+    <script>
+      (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3102571,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+
   <title>UX/UI HW 20</title>
 </head>
 
 <body>
 
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand"><img src="/images/Portfolio Design logo  copy 2.png" alt="logo" height="44px" width="44px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <li class="nav-item justify-content-end">
+          <a class="nav-link active" aria-current="page" href="#">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li class="nav-item justify-content-end">
+          <a class="nav-link" aria-current="page" href="#">About</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li class="nav-item justify-content-end">
+          <a class="nav-link" href="/Resumé/Yenwen UX_UI Resume.pdf" download="Yenwen UX/UI Resume">Resumé</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <li class="nav-item justify-content-end">
+          <a class="nav-link" href="mailto:ywkuouxui@gmail.com">Contact</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>  
 
 <!-- Hero Image -->
 
-<img>Hero Img</img>
+<img class="heroImg" src="/images/AWE SPLASH PAGE 1.png"></img>
+
+<div class="Hero-container">
+  <div class="row">
+    <div class="col">
+      <h3>My Role: UX Researcher | UX/UI Designer</h3>
+      <h3>Timeline: 3 weeks</h3>
+    </div>
+    <div class="col">
+      <h3>Team: Joi Addison | Nandhini Sivadasan | Yenwen Kuo </h3>
+      <ul class="Tool-item">Tool:
+        <li>Figna</li>
+        <li>Miro</li>
+        <li>Google Drive</li>
+        <li>Zoom</li>
+      </ul>
+    </div>
+  </div>
 
 <!-- Problem statement/ Solution -->
-<div class="container">
+<div class="Problem-container">
   <div class="row">
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="/images/Before AWE Laptop.png" class="card-img-top" alt="Before-AWE-Laptop">
         <div class="card-body">
+          <h2>PROBLEM STATEMENT</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="/images/After Homepage AWE laptop.png" class="card-img-top" alt="After-Awe-laptop">
         <div class="card-body">
+          <h2>SOLUTION</h2>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
@@ -85,16 +109,37 @@
   </div>
 
 <!-- Background -->
-<div class="container">
+<div class="Background-container">
   <div class="row">
     <div class="col">
-      1 of 2
+      <img src="/images/AWE Redesign Logo.png" alt="AWE Redeisgn Logo">
     </div>
     <div class="col">
-      2 of 2
+      <p>Dedicated to helping women students assert their legal rights to equitable treatment and equal opportunities and to shaping our education system according to true standards of gender equity. We accomplish this mission by providing free legal representation for women facing gender discrimination in the educational environment — in particular campus sexual violence — and by protecting and expanding their legal protections and educational opportunities through public policy advocacy</p>
     </div>
   </div>
 
+  <br>
+
+<!-- Design Process Overview -->
+<div class="row">
+  <div class="col">
+    <img src="/images/noun-user-research copy.png" atl="researcg" height="200px" width="200px">
+    <h3>Research</h3>
+  </div>
+  <div class="col">
+    <img src="/images/noun-problem-3796810 copy.png" atl="ideation" height="200px" width="200px">
+    <h3>Ideation</h3>
+  </div>
+  <div class="col">
+    <img src="/images/noun-prototype copy.png" alt="prototype" height="200px" width="200px">
+    <h3>Prototype</h3>
+  </div>
+  <div class="col">
+    <img src="/images/noun-ab-testing copy.png" alt="user testing" height="200px" width="200px">
+    <h3>User Testing</h3>
+  </div>
+</div>
 
 
 
