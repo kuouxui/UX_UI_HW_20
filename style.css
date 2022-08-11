@@ -26,6 +26,10 @@ body{
 
 }
 
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
 /* background overview */
 .background-row{
     background-color: rgba(95, 164, 151, 0.3);
@@ -43,8 +47,6 @@ body{
     margin-left: auto;
 }
 
-
-
 /* Design Process */
 .overview-row{
     justify-content: space-between;
@@ -57,9 +59,34 @@ h1{
     font-size: 64px;
 }
 
-#style-guide{
+#Wireframe{
     max-width: 100%;
     max-height: auto;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 30px;
+}
+
+#stylesheet-img{
+    max-width: 100%;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+
+/* Prototype */
+#prototype-video{
+    max-width: 100%;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+
+/* footer */
+#footer-copyright{
+    text-align: center;
 }
