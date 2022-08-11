@@ -1,3 +1,8 @@
+body{
+    padding: 98px;
+}
+
+/* Hero Image */
 
 .heroImg{
     max-width: 100%;
@@ -10,18 +15,41 @@
     padding: 47px;
 }
 
+.hero-col{
+    padding: 80px;
+}
+
+.Tool-item row{
+    padding-left: 0px;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+/* background overview */
+.background-row{
+    background-color: rgba(95, 164, 151, 0.3);
+    border-radius: 30px;
+}
+
+/* Problem Statement/Solution */
+
+.problem-col{
+    padding: 80px;
+}
+
 .Problem-container{
     margin-right: auto;
     margin-left: auto;
 }
 
+
+
 /* Design Process */
-col{
-    align-items: center;
+.overview-row{
     justify-content: space-between;
+    padding: 80px;
 }
-
-
 
 
 h1{
@@ -29,3 +57,9 @@ h1{
     font-size: 64px;
 }
 
+#style-guide{
+    max-width: 100%;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
