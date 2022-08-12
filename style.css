@@ -54,13 +54,15 @@ mark{
 /* Design Process */
 
 /* Research */
+
+#stakeholder-img{
+    padding-bottom: 30px;
+}
+
 .takehome-list{
     font-size: 18px;
 }
 
-.Stakeholder-Interview{
-    padding-bottom: 30px;
-}
 
 .overview-row{
     justify-content: space-between;
