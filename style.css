@@ -52,6 +52,14 @@ mark{
 }
 
 /* Design Process */
+
+/* Research */
+.takehome-list{
+    font-size: 24px;
+}
+
+
+
 .overview-row{
     justify-content: space-between;
     padding: 80px;
