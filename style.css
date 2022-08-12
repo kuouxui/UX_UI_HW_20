@@ -47,12 +47,19 @@ hr.solid {
     margin-left: auto;
 }
 
+mark{
+    font-weight: bold;
+}
+
 /* Design Process */
 .overview-row{
     justify-content: space-between;
     padding: 80px;
 }
 
+.design-col{
+    align-content: center;
+}
 
 h1{
     font-family: 'Courier New', Courier, monospace;
